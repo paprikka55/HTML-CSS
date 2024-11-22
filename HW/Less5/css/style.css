@@ -1,0 +1,304 @@
+/*-----fonts----*/
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('../fonts/gilroy-bold.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('../fonts/gilroy-medium.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: url('../fonts/gilroy-semibold.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy Regular';
+  src: url('../fonts/gilroy-regular.ttf');
+}
+
+/*----------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+  scroll-behavior: smooth;
+}
+
+a, button {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+a:hover, button:hover {
+  opacity: 0.7;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button {
+  font-weight: 400;
+  color: #000;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.container-second {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.container-services {
+  margin: 0 auto;
+  background: #FAFAFA;
+}
+
+/*-----header----*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 84px;
+  gap: 346px;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+}
+
+.text-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-logo-left {}
+
+.text-logo-right {
+  color: #f25822;
+}
+
+.menu {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 533px;
+}
+
+.menu-first-item {
+  color: #f25822;
+
+  font-family: "Gilroy-SemiBold", sans-serif;
+}
+
+.menu-features {}
+
+.menu-select {
+  border: none;
+}
+
+.menu-item {}
+
+/*------main-----*/
+
+.main-section {
+  padding-bottom: 215px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.main-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+}
+
+.main-section-header {
+  font-size: 60px;
+  color: #000;
+  padding-bottom: 17px;
+  max-width: 522px;
+}
+
+.main-section-text {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 20px;
+  color: #888;
+  padding-bottom: 37px;
+  max-width: 466px;
+}
+
+.main-section-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 37px;
+}
+
+.main-section-button {
+  padding: 15px 35px;
+  background: #f25822;
+  border-radius: 50px;
+  font-size: 15px;
+  color: #fff;
+}
+
+
+
+.right-button {
+  color: #aaa;
+  background: none;
+}
+
+.main-section-button-caption {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/*-----partners------*/
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+
+.partner-logo {}
+
+
+/*-------readbox------*/
+
+.readbox-section {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.readbox {
+  padding: 40px 30px 30px 25px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.readbox-shadow {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  background: #fff;
+}
+
+.readbox-header {
+  margin-top: 25px;
+  margin-bottom: 17px;
+  font-size: 24px;
+}
+
+.readbox-text {
+  margin-bottom: 25px;
+  font-size: 15px;
+  line-height: 150%;
+  color: #666;
+  font-family: "Gilroy-Regular", sans-serif;
+
+}
+
+.services {
+  padding-top: 92px;
+  padding-bottom: 100px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.services-header {
+  font-size: 45px;
+}
+
+.services-slogan {
+  padding-top: 19px;
+  padding-bottom: 55px;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666;
+  max-width: 682px;
+}
+
+.services-learnbox-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.learnbox {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.learnbox-header {
+  margin-top: 25px;
+  margin-bottom: 22px;
+  font-size: 24px;
+}
+
+.learbox-text {
+  margin-bottom: 39px;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 150%;
+  color: #aaa;
+  max-width: 310px;
+}
+
+.learnbox-button {
+  margin-bottom: 50px;
+  box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+  background: #f25822;
+  border-radius: 50px;
+  padding: 16px 41px;
+  font-size: 13px;
+  line-height: 150%;
+  color: #fff;
+  font-family: "Gilroy-Bold", sans-serif;
+}
