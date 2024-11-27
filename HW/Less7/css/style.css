@@ -1,0 +1,321 @@
+/*400, 700, 900
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+  scroll-behavior: smooth;
+}
+
+a, button {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+a:hover, button:hover {
+  opacity: 0.7;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  justify-self: center;
+}
+
+
+/*header*/
+
+.header {
+  background: #222222;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+}
+
+.menu-left {
+  display: flex;
+  gap: 41px;
+  align-items: flex-end;
+}
+
+.menu-right {
+  display: flex;
+  gap: 33px;
+  align-items: flex-end;
+}
+
+.header-button {
+  background: none;
+}
+
+/*main*/
+
+.banner {
+  background: #F1E4E6;
+}
+
+.banner-content {
+  display: flex;
+}
+
+.main-banner-slogan {
+  text-transform: uppercase;
+  margin-top: 290px;
+  margin-bottom: 383px;
+  margin-left: 64px;
+  padding-left: 16px;
+  border-left: 12px solid #F16D7F;
+}
+
+.main-banner-header {
+  font-weight: 900;
+  font-size: 48px;
+  color: #222;
+}
+
+.main-banner-text {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.offer {
+  margin-top: 65px;
+  margin-bottom: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.offer-item {
+  width: 360px;
+  height: 260px;
+}
+
+.woman {
+  background-image: url("../img/offer-item-img1.png");
+}
+
+.men {
+  background-image: url("../img/offer-item-img2.png");
+}
+
+.kids {
+  background-image: url("../img/offer-item-img3.png");
+}
+
+.accesories {
+  width: 100%;
+  height: 180px;
+  background-image: url("../img/offer-item-img4.png");
+}
+
+.offer-item-shadow {
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 22, 22, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-item-caption {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.offer-item-caption-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.offer-item-caption-header {
+  font-weight: 700;
+  font-size: 24px;
+  color: #F16D7F;
+}
+
+.products {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+
+.products-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: center;
+}
+
+.products-caption-header {
+  font-weight: 400;
+  font-size: 30px;
+  color: #222;
+}
+
+.products-caption-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9f9f9f;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.products-grid-card {
+  background: #F8F8F8;
+}
+
+.card-caption {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 314.74px;
+}
+
+.card-caption-header {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.card-caption-text {
+  font-weight: 300;
+  font-size: 14px;
+  color: #5d5d5d;
+}
+
+.card-caption-price {
+  font-weight: 400;
+  font-size: 16px;
+  color: #f16d7f;
+}
+
+.products-browse-button {
+  border: 1px solid #F16D7F;
+  padding-top: 15px;
+  padding-bottom: 14px;
+  padding-left: 39px;
+  padding-right: 39px;
+  background: none;
+}
+
+.button-caption {
+  font-weight: 400;
+  font-size: 16px;
+  color: #f26376;
+}
+
+/*pink text*/
+.pink-text {
+  color: #F16D7F;
+}
+
+@media(min-width: 768px) and (max-width: 1140px) {
+  .container {
+    width: 720px;
+  }
+
+  .menu-right {
+    gap: 32px;
+  }
+
+  .banner-content {
+    justify-content: space-around;
+  }
+
+  .banner-logo {
+    display: flex;
+    justify-content: center;
+    max-height: 368px;
+    align-items: center;
+  }
+
+  .banner-img {
+    max-height: 368px;
+  }
+
+  .main-banner-slogan {
+    margin-top: 138px;
+    margin-bottom: 138px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main-banner-header {
+    font-size: 44px;
+  }
+
+  .main-banner-text {
+    font-size: 24px;
+  }
+
+  .offer {
+    margin-bottom: 109.92px;
+    gap: 12px;
+  }
+
+  .offer-item {
+    width: 232px;
+    height: 167px;
+  }
+
+  .accesories {
+    height: 116px;
+  }
+
+  .products {
+    gap: 32px;
+  }
+
+  .products-caption {
+    gap: 3.3px;
+    margin-bottom: 40px;
+  }
+
+  .products-grid {
+    gap: 14px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .card-caption {
+    padding-left: 16px;
+  }
+}
