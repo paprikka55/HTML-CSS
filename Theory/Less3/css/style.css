@@ -142,3 +142,7 @@ img {
 .partner-logo:hover {
   opacity: 0.5;
 }
+
+.video-item {
+  width: 100%;
+}

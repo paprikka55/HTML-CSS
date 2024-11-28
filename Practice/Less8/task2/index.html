@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>task2_less8</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form action="#" class="reg-form">
+			<input
+				class="reg-from__input"
+				autofocus
+				required
+				placeholder="Ваше имя"
+				type="text"
+				id="name"
+				name="name"
+				title="Введите имя"
+			/>
+			<input
+				class="reg-from__input"
+				required
+				placeholder="E-mail"
+				type="email"
+				id="email"
+				name="e-mail"
+				title="Введите e-mail"
+			/>
+			<input
+				class="reg-from__input"
+				required
+				placeholder="Введите пароль"
+				type="password"
+				id="password"
+				name="password"
+				title="Введите пароль"
+			/>
+			<input
+				class="reg-from__input"
+				required
+				placeholder="Введите Ваш возраст"
+				min="1"
+				type="number"
+				id="age"
+				name="age"
+				title="Введите Ваш возраст"
+			/>
+			<input
+				class="reg-from__input"
+				required
+				placeholder="Введите дату рождения"
+				type="date"
+				id="birthday"
+				name="birthday"
+				title="Введите дату рождения"
+			/>
+			<input
+				class="reg-from__input"
+				required
+				placeholder="Номер телефона"
+				type="tel"
+				id="phone"
+				name="phone"
+				title="Номер телефона"
+			/>
+			<label for="range"
+				>Значение от 1 до 10, выбрано:
+				<span class="reg-form__range-display" id="valueDisplay">1</span></label
+			>
+			<input
+				class="reg-from__input"
+				type="range"
+				required
+				min="1"
+				max="10"
+				id="range"
+				name="range"
+				value="1"
+				title="Значение от 1 до 10"
+				oninput="valueDisplay.textContent=this.value"
+			/>
+
+			<div class="reg-form__button-box">
+				<button class="reg-form__button" type="submit">OK</button>
+				<button class="reg-form__button" type="reset">Cancel</button>
+			</div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+.form {
+  max-width: 200px;
+
+}
+
+.form__checkbox-lable {
+  display: flex;
+  position: relative;
+}
+
+.icon {
+  width: 40px;
+}
+
+.hidden-checkbox {
+  position: absolute;
+  left: -999999999px;
+  visibility: hidden;
+}
+
+.form__checkbox-label {
+  /* opacity: 0.5; */
+  /* color: red; */
+}
+
+.form__checked-icon {
+  position: absolute;
+  visibility: hidden;
+}
+
+.form__unchecked-icon {
+  position: absolute;
+  visibility: visible;
+}
+
+input:checked~.form__checked-icon {
+  visibility: visible;
+}
+
+input:checked~.form__unchecked-icon {
+  visibility: hidden;
+}
