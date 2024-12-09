@@ -1,0 +1,9 @@
+.svg-img {}
+
+.img:hover {
+  fill: purple;
+}
+
+.img:active {
+  fill: yellow;
+}

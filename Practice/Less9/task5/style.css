@@ -1,0 +1,42 @@
+.content {
+  margin-top: 200px;
+  margin-left: 200px;
+  position: relative;
+
+}
+
+.item {
+  position: absolute;
+  width: 150px;
+  height: 64px;
+  background: red;
+  border-left: 3px solid #000;
+  border-right: 3px solid #000;
+
+  /* border: 1px solid #000; */
+  display: flex;
+}
+
+.item_1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  font-weight: bold;
+  font-stretch: 87.5%;
+  z-index: 5;
+}
+
+.item_2 {
+  transform: rotate(90deg);
+}
+
+.item_3 {
+  transform: rotate(45deg);
+}
+
+.item_4 {
+  transform: rotate(135deg);
+}
