@@ -1,3 +1,5 @@
+<!-- Сайт в Интернет: https://html-css-9qot.vercel.app/ -->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -44,18 +46,18 @@
 				<h2 class="hidden">Header navigation</h2>
 				<div class="header__left-nav">
 					<a href="#"><img src="./img/menu-left-img1.svg" alt="logo" /></a>
-					<button class="header__button">
+					<button class="header__button" aria-label="search">
 						<img src="./img/menu-left-img2.svg" alt="search" />
 					</button>
 				</div>
 				<div class="header__right-nav">
-					<button id="get-menu" class="header__button">
+					<button id="get-menu" class="header__button" aria-label="menu">
 						<img src="./img/menu-right-img1.svg" alt="nav-menu" />
 					</button>
-					<button class="header__button hidden-item">
+					<button class="header__button hidden-item" aria-label="user">
 						<img src="./img/menu-right-img2.svg" alt="user" />
 					</button>
-					<button class="header__button hidden-item">
+					<button class="header__button hidden-item" aria-label="cart">
 						<img src="./img/menu-right-img3.svg" alt="cart" />
 					</button>
 				</div>
@@ -125,7 +127,10 @@
 					<article class="products__card">
 						<div class="products__cart-button card-1">
 							<div class="products__shadow">
-								<button class="products__add-to-cart-button">
+								<button
+									class="products__add-to-cart-button"
+									aria-label="Add to Cart"
+								>
 									<img src="./img/button-cart.svg" alt="cart-img" />
 									<span>Add to Cart</span>
 								</button>
@@ -146,7 +151,10 @@
 					<article class="products__card">
 						<div class="products__cart-button card-2">
 							<div class="products__shadow">
-								<button class="products__add-to-cart-button">
+								<button
+									class="products__add-to-cart-button"
+									aria-label="Add to Cart"
+								>
 									<img src="./img/button-cart.svg" alt="cart-img" />
 									<span>Add to Cart</span>
 								</button>
@@ -167,7 +175,10 @@
 					<article class="products__card">
 						<div class="products__cart-button card-3">
 							<div class="products__shadow">
-								<button class="products__add-to-cart-button">
+								<button
+									class="products__add-to-cart-button"
+									aria-label="Add to Cart"
+								>
 									<img src="./img/button-cart.svg" alt="cart-img" />
 									<span>Add to Cart</span>
 								</button>
@@ -188,7 +199,10 @@
 					<article class="products__card">
 						<div class="products__cart-button card-4">
 							<div class="products__shadow">
-								<button class="products__add-to-cart-button">
+								<button
+									class="products__add-to-cart-button"
+									aria-label="Add to Cart"
+								>
 									<img src="./img/button-cart.svg" alt="cart-img" />
 									<span>Add to Cart</span>
 								</button>
@@ -209,7 +223,10 @@
 					<article class="products__card">
 						<div class="products__cart-button card-5">
 							<div class="products__shadow">
-								<button class="products__add-to-cart-button">
+								<button
+									class="products__add-to-cart-button"
+									aria-label="Add to Cart"
+								>
 									<img src="./img/button-cart.svg" alt="cart-img" />
 									<span>Add to Cart</span>
 								</button>
@@ -230,7 +247,10 @@
 					<article class="products__card">
 						<div class="products__cart-button card-6">
 							<div class="products__shadow">
-								<button class="products__add-to-cart-button">
+								<button
+									class="products__add-to-cart-button"
+									aria-label="Add to Cart"
+								>
 									<img src="./img/button-cart.svg" alt="cart-img" />
 									<span>Add to Cart</span>
 								</button>
@@ -249,7 +269,7 @@
 						</div>
 					</article>
 				</div>
-				<button class="products__button">
+				<button class="products__button" aria-label="Browse All Product">
 					<span class="products__button-caption">Browse All Product</span>
 				</button>
 			</section>
@@ -322,7 +342,11 @@
 									placeholder="Enter Your Email"
 									required
 								/>
-								<button class="subscribe__button" type="submit">
+								<button
+									class="subscribe__button"
+									type="submit"
+									aria-label="Subscribe"
+								>
 									Subscribe
 								</button>
 							</form>
@@ -335,7 +359,7 @@
 			<div class="footer__content container">
 				<p class="footer__copy">&copy; 2021 Brand All Rights Reserved.</p>
 				<div class="footer__buttons">
-					<button class="footer__button">
+					<button class="footer__button" aria-label="facebook">
 						<svg
 							width="9"
 							height="15"
@@ -348,7 +372,7 @@
 							/>
 						</svg>
 					</button>
-					<button class="footer__button">
+					<button class="footer__button" aria-label="instagram">
 						<svg
 							width="16"
 							height="15"
@@ -361,7 +385,7 @@
 							/>
 						</svg>
 					</button>
-					<button class="footer__button">
+					<button class="footer__button" aria-label="pinterest">
 						<svg
 							width="13"
 							height="16"
@@ -374,7 +398,7 @@
 							/>
 						</svg>
 					</button>
-					<button class="footer__button">
+					<button class="footer__button" aria-label="twitter">
 						<svg
 							width="17"
 							height="14"
